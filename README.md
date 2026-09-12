@@ -1,8 +1,6 @@
 # Move Anki Cards to a Subdeck (via AnkiConnect)
 
-This script finds cards in an Anki collection whose `Video` field contains a
-video URL ending in `-tecken.mp4` for a specific list of word IDs, and moves
-those cards into a target subdeck.
+This script finds cards in an Anki collection whose media field contains a filename matching a given pattern for a specific list of word IDs, and moves those cards into a target subdeck.
 
 ## Requirements
 
